@@ -1,0 +1,32 @@
+.top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #35424a;
+    border-bottom: 3px solid #e8491d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+}
+
+a{
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.övre{
+    background-image: url("./img/showcase.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
