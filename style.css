@@ -24,6 +24,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 12px;
 }
 
 .övre{
@@ -57,5 +58,48 @@ p{
     background-color: #35424a;
     border-bottom: 3px solid #e8491d;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.nedre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    padding: 2%;
+}
+
+h2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.litentext{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.sidfot{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8491d;
+    border-bottom: 3px solid black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidfottext{
+    font-size: 10px;
+    padding: 2%;
 }
 
